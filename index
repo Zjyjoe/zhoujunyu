@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="2VgP83K4IWie34pzEEgA4mJWNK6cUDSyKbmC0gwc2kDpFGDHOuEWENmd4kJGcHfRMRVQ38Mba9Ftw_ugQmqqEA==">
+    <title>YCOJ</title>
+    <link href="/assets/b635a43c/css/bootstrap.css?v=1605518264" rel="stylesheet">
+<link href="/css/site.css?v=1605518239" rel="stylesheet">
+<link href="/js/katex/katex.min.css?v=1605518239" rel="stylesheet">
+<link href="/js/highlight/styles/monokai-sublime.css?v=1605518239" rel="stylesheet">    <link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+
+<div class="wrap">
+    <header id="header" class="hidden-xs">
+        <div class="container">
+            <div class="page-header">
+                <div class="logo pull-left">
+                    <div class="pull-left">
+                        <a class="navbar-brand" href="/">
+                            <img src="/images/logo.png" />
+                        </a>
+                    </div>
+                    <div class="brand">
+                        信息学在线评测系统
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </header>
+    <nav id="w0" class="navbar-default navbar"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/">YCOJ</a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li><a href="/problem/index"><span class="glyphicon glyphicon-list"></span> 题库</a></li>
+<li><a href="/status/index"><span class="glyphicon glyphicon-signal"></span> 状态</a></li>
+<li><a href="/rating/problem"><span class="glyphicon glyphicon-king"></span> 排行榜</a></li>
+<li><a href="/contest/index"><span class="glyphicon glyphicon-knight"></span> 题单</a></li>
+<li><a href="/wiki/index"><span class="glyphicon glyphicon-info-sign"></span> 帮助</a></li>
+<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> 周珺彧 <span class="caret"></span></a><ul id="w2" class="dropdown-menu"><li><a href="/user/view?id=2279" tabindex="-1"><span class="glyphicon glyphicon-home"></span> 简介</a></li>
+<li><a href="/user/setting?action=profile" tabindex="-1"><span class="glyphicon glyphicon-cog"></span> 设置</a></li>
+<li class="divider"></li>
+<li><a href="/site/logout" tabindex="-1"><span class="glyphicon glyphicon-log-out"></span> 退出登录</a></li></ul></li></ul></div></div></nav>
+    
+    <div class="container">
+                        
+<div class="row blog">
+
+    <div class="col-md-8">
+        <div class="jumbotron" style="height:400px; background:url(/images/cqyc_1.jpg)">
+            <!-- <h3>Hello, world!</h3>
+            <p>欢迎来到重庆市育才中学校在线统——YCOJ Online Judge</p> -->
+        </div>
+        <hr>
+        <div class="blog-main">
+            <h2>最近新闻/通知</h2>
+            <br/>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=7356">喜讯，育才学子在第16届亚太地区信息学奥赛取得1金1铜优异成绩！</a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2022年06月15日                </div>
+            </div>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=4872"> 重庆仅3名，育才占2名！祝贺育才学子入选2022国际初中生信息学竞赛中国队！ </a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2022年05月01日                </div>
+            </div>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=351">从中学到大学，与北大专家共研持续性人才培养 ——记九龙坡区周祖松名师工作室研讨会</a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2022年01月20日                </div>
+            </div>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=348">名师引领，开创区域编程教育新篇章 ——九龙坡区周祖松名师工作室启动仪式</a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2022年01月18日                </div>
+            </div>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=246">CCF关于举办NOI 2022冬令营的通知</a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2021年11月22日                </div>
+            </div>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=245">砥砺前行，NOIP 2021如期举办</a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2021年11月22日                </div>
+            </div>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=242">NOI教师培训将首次在重庆举办</a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2021年11月11日                </div>
+            </div>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=237">育才初中学子斩获第38届全国青少年信息学奥林匹克竞赛（ NOI 2021）铜牌！</a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2021年08月14日                </div>
+            </div>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=236">CCF NOI2024全国决赛将在重庆（育才中学）举办</a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2021年08月14日                </div>
+            </div>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=18">[新闻] 育才中学周祖松受邀担任NOI2021冬令营讲师</a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2021年01月05日                </div>
+            </div>
+                        <div >
+                <h4 class="blog-post-title"><a href="/site/news?id=6">九龙坡区信息学线上培训专题</a>                </h4>
+                <div class="blog-post-meta">
+                    <span class="glyphicon glyphicon-time"></span> 2020年12月28日                </div>
+            </div>
+                                </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="sidebar-module">
+            <h4>信息学相关网站链接</h4>
+            <ol class="list-unstyled">
+                <li>
+                    <a href="http://www.noi.cn/" target="_blank">全国青少年信息学奥林匹克竞赛(NOI)</a><br />
+                </li>
+                <li>
+                    <a href="http://www.cqyc.com" target="_blank">重庆育才中学</a>
+                </li>
+                <li>
+                    <a href="https://oi-wiki.org/" target="_blank">OI百科</a><br />
+                </li>
+                <li>
+                    <a href="http://120.79.19.114" target="_blank">C++</a>
+                </li>
+
+                <li>
+                    <a href="https://projecteuler.net/" target="_blank">欧拉计划</a>
+                </li>
+            </ol>
+        </div>
+
+        <div class="sidebar-module">
+            <h4>在线工具</h4>
+            <ol class="list-unstyled">
+                <li>
+                    <a href="http://www.dooccn.com/cpp/" target="_blank">在线编译</a>
+                </li>
+                <li>
+                    <a href="http://codezen.rishimohan.me/" target="_blank">代码转图片</a>
+                </li>
+                <li>
+                    <a href="https://fanyi.baidu.com/" target="_blank">翻译</a>
+                </li>
+                <li>
+                    <a href="https://csacademy.com/app/graph_editor/" target="_blank">Graph Editor</a>
+		</li>
+                 <li>
+                    <a href="files/algorithm_show.html">[基础算法演示]</a>                </li>
+
+            </ol>
+        </div>
+
+        <div class="sidebar-module">
+            <h4>下载</h4>
+            <ol class="list-unstyled">
+                <li>
+                    <a href="/files/Dev-Cpp_5.11_TDM-GCC_4.9.2_Setup.zip" target="_blank">Dev-Cpp_5.11_TDM-GCC_4.9.2_Setup.zip</a><br />
+                </li>
+                <li>
+                    <a href="/files/Dev-Cpp_5.9.2_TDM-GCC_4.8.1_Setup.1425957545.zip" target="_blank">Dev-Cpp_5.9.2_TDM-GCC_4.8.1_Setup.zip</a><br />
+                </li>
+                <li>
+                    <a href="/files/lemon-win-x86.zip" target="_blank">lemon-win-x86.zip</a><br />
+                </li>
+                <li>
+                    <a href="/files/lemon-win-x64.zip" target="_blank">lemon-win-x64.zip</a><br />
+                </li>
+                <li>
+            </ol>
+        </div>
+
+                <div class="sidebar-module">
+            <h4>最近比赛</h4>
+            <ol class="list-unstyled">
+                                <li>
+		                    <a href="/contest/view?id=73">lhxx逐题落实</a>                </li>
+                                <li>
+		                    <a href="/contest/view?id=68">代码能力基本功过关</a>                </li>
+                                <li>
+		                    <a href="/contest/view?id=53">【专题练习】递归</a>                </li>
+                            </ol>
+        </div>
+        
+                <div class="sidebar-module">
+            <h4>最近讨论</h4>
+            <ol class="list-unstyled">
+                                <li class="index-discuss-item">
+                    <div>
+                        <a href="/discuss/view?id=1321">Bile jian</a>                    </div>
+                    <small class="text-muted">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <a href="/user/view?id=xiexingyu">脚趾甲當脆骨吃</a>                        &nbsp;•&nbsp;
+                        <span class="glyphicon glyphicon-time"></span>
+                        4个月前                        &nbsp;•&nbsp;
+                        <a href="/p/10412">整理题库</a>                    </small>
+                </li>
+                                <li class="index-discuss-item">
+                    <div>
+                        <a href="/discuss/view?id=7651">答案</a>                    </div>
+                    <small class="text-muted">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <a href="/user/view?id=slxx39">李舒扬</a>                        &nbsp;•&nbsp;
+                        <span class="glyphicon glyphicon-time"></span>
+                        9天前                        &nbsp;•&nbsp;
+                        <a href="/p/12003">蜥蜴</a>                    </small>
+                </li>
+                                <li class="index-discuss-item">
+                    <div>
+                        <a href="/discuss/view?id=1328">鸡兔同笼的鸡什么意思</a>                    </div>
+                    <small class="text-muted">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <a href="/user/view?id=hlmt">蔡徐坤爱打篮球</a>                        &nbsp;•&nbsp;
+                        <span class="glyphicon glyphicon-time"></span>
+                        4个月前                        &nbsp;•&nbsp;
+                        <a href="/p/10114">鸡兔同笼</a>                    </small>
+                </li>
+                                <li class="index-discuss-item">
+                    <div>
+                        <a href="/discuss/view?id=6633">???</a>                    </div>
+                    <small class="text-muted">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <a href="/user/view?id=mnbvcxz">五分仪</a>                        &nbsp;•&nbsp;
+                        <span class="glyphicon glyphicon-time"></span>
+                        2个月前                        &nbsp;•&nbsp;
+                        <a href="/p/10458">打考勤</a>                    </small>
+                </li>
+                                <li class="index-discuss-item">
+                    <div>
+                        <a href="/discuss/view?id=7643">狼人杀转移至 https://nr0728.blog.luogu.org/</a>                    </div>
+                    <small class="text-muted">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <a href="/user/view?id=nr0728">倪锐</a>                        &nbsp;•&nbsp;
+                        <span class="glyphicon glyphicon-time"></span>
+                        15天前                        &nbsp;•&nbsp;
+                        <a href="/p/1000">[在线测评解答教程] A+B Problem</a>                    </small>
+                </li>
+                                <li class="index-discuss-item">
+                    <div>
+                        <a href="/discuss/view?id=7639">zen me cuo le?</a>                    </div>
+                    <small class="text-muted">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <a href="/user/view?id=LCS66685">魄犇</a>                        &nbsp;•&nbsp;
+                        <span class="glyphicon glyphicon-time"></span>
+                        16天前                        &nbsp;•&nbsp;
+                        <a href="/p/10201">判断奇偶</a>                    </small>
+                </li>
+                                <li class="index-discuss-item">
+                    <div>
+                        <a href="/discuss/view?id=7638">CcCcCcCcCc</a>                    </div>
+                    <small class="text-muted">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <a href="/user/view?id=LCS66685">魄犇</a>                        &nbsp;•&nbsp;
+                        <span class="glyphicon glyphicon-time"></span>
+                        16天前                        &nbsp;•&nbsp;
+                        <a href="/p/10105">个位与十位之和</a>                    </small>
+                </li>
+                                <li class="index-discuss-item">
+                    <div>
+                        <a href="/discuss/view?id=7637">导弹</a>                    </div>
+                    <small class="text-muted">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <a href="/user/view?id=mahaodong">马浩东</a>                        &nbsp;•&nbsp;
+                        <span class="glyphicon glyphicon-time"></span>
+                        17天前                        &nbsp;•&nbsp;
+                        <a href="/p/10109">倒序输出II</a>                    </small>
+                </li>
+                                <li class="index-discuss-item">
+                    <div>
+                        <a href="/discuss/view?id=7603">老师，我提交的题都不见了</a>                    </div>
+                    <small class="text-muted">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <a href="/user/view?id=xintaoyu101122">踏山河一辛涛宇</a>                        &nbsp;•&nbsp;
+                        <span class="glyphicon glyphicon-time"></span>
+                        20天前                        &nbsp;•&nbsp;
+                        <a href="/p/1000">[在线测评解答教程] A+B Problem</a>                    </small>
+                </li>
+                                <li class="index-discuss-item">
+                    <div>
+                        <a href="/discuss/view?id=7619">怎么回事啊</a>                    </div>
+                    <small class="text-muted">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <a href="/user/view?id=jackson0924">杨荞光</a>                        &nbsp;•&nbsp;
+                        <span class="glyphicon glyphicon-time"></span>
+                        19天前                        &nbsp;•&nbsp;
+                        <a href="/p/1000">[在线测评解答教程] A+B Problem</a>                    </small>
+                </li>
+                            </ol>
+        </div>
+            </div>
+</div>
+
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">&copy; YCOJ   2022 </p>
+        <p class="pull-left">
+            <a href="?lang=zh-CN"> 中文简体 </a>| <a href="?lang=en"> English </a>        </p>
+    </div>
+</footer>
+
+<script src="/assets/ba9bd46f/jquery.js?v=1605518264"></script>
+<script src="/assets/4d91cf77/yii.js?v=1605518264"></script>
+<script src="/js/highlight/highlight.pack.js?v=1605518239"></script>
+<script src="/js/katex/katex.min.js?v=1605518239"></script>
+<script src="/js/socket.io.js?v=1605518239"></script>
+<script src="/js/clipboard.min.js?v=1605518239"></script>
+<script src="/js/app.js?v=1605518239"></script>
+<script src="/assets/b635a43c/js/bootstrap.js?v=1605518264"></script></body>
+</html>
